@@ -6,6 +6,7 @@ numbers = range(1, 1001)
 for num in numbers:
     sqr_root = math.sqrt(num)
     fr,whole = math.modf(sqr_root)
+    print("#######")
     if fr == 0.00:
         sqr_root = int(sqr_root)
 
